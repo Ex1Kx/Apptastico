@@ -1,0 +1,138 @@
+html{
+	text-decoration: none;
+	color
+	line-height: 1.4;
+
+}
+body{
+	font: 15px Arial;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	font-size: 14px;
+    font-family: "Droid Sans", sans-serif;
+    font-weight: 400;
+}
+header{
+	color: white;
+	background-color: #476072;
+	padding-top: 30px;
+	min-height: 70px;
+}
+header img {
+    vertical-align: middle;
+    display: inline-block;
+}
+.contenido{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	text-decoration: none;
+}
+#logo{
+	float: left;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	color: white
+	text-decoration: none;
+}
+li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	color: white;
+	text-decoration: none;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 7px 16px;
+
+}
+#phone{
+	float: left;
+}
+header p, h1{
+	color: white;
+}
+#dummies{
+	margin-top: 20px;
+	margin: 30px;
+}
+#logos{
+	margin-top: 20px;
+	color: #000000;
+}
+#logos .logos{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+#logos .logos img{
+	width: 90px;
+}
+.nav {
+    float: right;
+}
+
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 7px 16px;
+
+}
+h1 {
+    font-size: 2.8em;
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+    color: white;
+}
+.shadow{
+   background: url(../img/icons/shadow.png) no-repeat;
+    height: 20px;
+    z-index: -1;
+    position: relative;
+    left: -14px;
+}
+.btn {
+    background: blue;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary {
+    border-radius: 30px;
+    padding: 15px 40px;
+    border-top: 1px solid rgb(160, 207, 234);
+    border-bottom: 1px solid rgb(82, 154, 212);
+    background: rgba(66,156,212,1);
+background: -moz-linear-gradient(top, rgba(66,156,212,1) 0%, rgba(37,129,199,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,156,212,1)), color-stop(100%, rgba(37,129,199,1)));
+background: -webkit-linear-gradient(top, rgba(66,156,212,1) 0%, rgba(37,129,199,1) 100%);
+background: -o-linear-gradient(top, rgba(66,156,212,1) 0%, rgba(37,129,199,1) 100%);
+background: -ms-linear-gradient(top, rgba(66,156,212,1) 0%, rgba(37,129,199,1) 100%);
+background: linear-gradient(to bottom, rgba(66,156,212,1) 0%, rgba(37,129,199,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#429cd4', endColorstr='#2581c7', GradientType=0 );
+}
+p{
+	line-height: 22px;
+    color: #a4a4a4;
+}
