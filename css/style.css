@@ -174,10 +174,28 @@ p{
 }
 
 .images-grid img{
-	width: 90px;
 	float: left;
 	text-align: center;
 	width: 30%;
 	padding: 10px;
 	width: 300px;
+	position: relative;
+  	bottom: -40px;
+}
+h2{
+	color: gray;
+	position: relative;
+  	bottom: -40px;
+  	font-family: sans-serif;
+  	font-size: 23px;
+  	padding: 20px;
+}
+h2 img{
+	padding-left: auto;
+}
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	text-align: left;
 }
