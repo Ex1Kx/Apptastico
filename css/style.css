@@ -29,6 +29,21 @@ header img {
 	overflow: hidden;
 	text-decoration: none;
 }
+.wrapper{
+	width: 80%;
+	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  	border: 0px solid red;
+}	
+
+#dummies{
+	border: 0px solid red;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background: #C8C6C6;
+}
+
 #logo{
 	float: left;
 }
@@ -64,12 +79,6 @@ header nav{
 }
 header p, h1{
 	color: white;
-}
-#dummies{
-	margin-top: 20px;
-	margin: 30px;
-	 padding:20px 105px ;
-	 text-align: center;
 }
 #logos{
 	margin-top: 20px;
@@ -150,6 +159,7 @@ p{
   font-weight: bold;
    position: relative;
   	bottom: -40px;
+
 }
 
 .about-btn{
@@ -173,14 +183,8 @@ p{
 
 }
 
-.images-grid img{
-	float: left;
-	text-align: center;
-	width: 30%;
-	padding: 10px;
-	width: 300px;
-	position: relative;
-  	bottom: -40px;
+
+
 }
 h2{
 	color: gray;
@@ -198,4 +202,24 @@ footer{
 	margin-top: 20px;
 	color: #ffffff;
 	text-align: left;
+}
+h3{
+
+}
+.one{
+	border: 5px solid #FF95C5;
+	height: 200px;	
+	width: 200px;
+	overflow: hidden;
+	box-shadow:  0px 0px 10px 0px green;
+}
+.one > .one_image{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+.images-uwu{
+	border: 1px solid none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
