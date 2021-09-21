@@ -207,11 +207,11 @@ h3{
 
 }
 .one{
-	border: 5px solid #FF95C5;
+	border: 5px solid #ffff;
 	height: 200px;	
 	width: 200px;
 	overflow: hidden;
-	box-shadow:  0px 0px 10px 0px green;
+	box-shadow:  0px 0px 10px 0px gray;
 }
 .one > .one_image{
 	object-fit: cover;
